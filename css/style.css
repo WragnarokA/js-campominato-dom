@@ -10,7 +10,7 @@
         HEADER  
  *********************/
  header{
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.408);
     min-width: 100%;
     height: 6rem;
 }
@@ -19,12 +19,12 @@
     align-items: center;
 }
 .img{
-    width: 6rem;
+    width: 5rem;
 }
 .titolo{
     font-size: 3rem;
     font-weight: bold;
-    margin-right: 53rem;
+    margin-right: 50rem;
 }
 .bar{
     max-width: 90vw;
@@ -47,13 +47,13 @@
 main{
     background-color: #016170;
     width: 100vw;
-    height: calc(100vh - 6rem);
+    height: calc(100vh - 16rem);
     padding-top: 2rem;
 }
 
-#grid{
-    width: 45rem;
-    height: 45rem;
+.grid{
+    width: 40rem;
+    height: 40rem;
     margin: auto;
     border: 2px white solid;
     display: flex;
@@ -61,35 +61,40 @@ main{
 
 }
 
-.square100{
-    width: calc(100% / 10) ;
-    height: calc(100% / 10);
+.square{
     border: 2px white solid;
+    color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.square81{
-    width: calc(100% / 9) ;
-    height: calc(100% / 10);
-    border: 2px white solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.aquamarine{
+    background-color: #8A79FF;
 }
 
-.square49{
-    width: calc(100% / 7) ;
-    height: calc(100% / 10);
-    border: 2px white solid;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.red{
+    background-color: red;
 }
 
 
+/*********************
+       FOOTER
+ *********************/
 
-
+ footer{
+     width: 100vw;
+     height: 10rem;
+     background-color: #016170;
+ }
+     
+#risultato{
+    color: white;
+    font-size: 3rem;
+    width: 50vw;
+    margin: 0 auto;
+    padding-top: 1.5rem;
+}
+ 
 
 

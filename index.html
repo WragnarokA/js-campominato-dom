@@ -11,39 +11,44 @@
     <header>
         <div class="bar">
             
-            <img class="img" src="./img/mobile-logo.png" alt="">
+            <img class="img" src="./img/logo-boolean.png" alt="">
             <span class="titolo">Camopo Minato</span>
-         
+            
             <div>
-                <label for="livelloDiDificolta">Dificoltà: </label> 
-                    <select name="livelloDiDificolta" id="dificolta">
-                        <option value="Normal" onclick="normal()">Normal</option>
-                        <option value="Hard" onclick="hard()">Hard</option>
-                        <option value="Super Hard" onclick="superHard()">Super Hard</option>
+                <label for="difficolta">Dificoltà: </label> 
+                <select name="difficolta" id="difficolta">
+                    <option value="100" onclick="normal()">Normal</option>
+                    <option value="81" onclick="hard()">Hard</option>
+                    <option value="49" onclick="superHard()">Super Hard</option>
 
-                    </select>
-              
-              
+                    
+                    
+                </select>
                 
-                <button>Play</button>
+                <button id="playBtn">Play!</button>
+                
+                 
             </div>
-          
-        </div>
-        
-
-    </header>
-
-    <main>
-        <div id="grid">
-            <div class="square81">ciao</div>
-
-
             
         </div>
+        
+        
+    </header>
+    
+    <main>
+
+        
+        
+        
+        
     </main>
-
-    <footer></footer>
-
+    
+    
+    <footer>
+        <div id="risultato"> Il tuo punteggio è:</div>
+     
+    </footer>
+    
 
 
     <script src="./js/main.js"></script>
